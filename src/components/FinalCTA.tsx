@@ -9,10 +9,11 @@ import { TrendingUp } from "lucide-react";
 export default function FinalCTA() {
     return (
         <Section className="py-24 md:py-32 relative overflow-hidden">
-            <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
+            <div className="max-w-7xl mx-auto px-6 md:px-12 text-center relative z-10">
                 <ScrollReveal>
-                    <h2 className="text-5xl md:text-7xl font-black tracking-tighter text-white mb-8 leading-[0.9]">
-                        {t.sections.final.titleA} <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-fuchsia-500">{t.sections.final.titleB}</span>
+                    <h2 className="text-5xl md:text-7xl font-black tracking-tighter mb-8 leading-[1.2]">
+                        <span className="text-white whitespace-nowrap">{t.sections.final.titleA}</span><br />
+                        <span className="bg-gradient-to-r from-violet-500 to-white bg-clip-text text-transparent whitespace-nowrap">{t.sections.final.titleB}</span>
                     </h2>
                 </ScrollReveal>
                 

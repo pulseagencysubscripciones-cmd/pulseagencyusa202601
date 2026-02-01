@@ -8,7 +8,7 @@ import { PAIN_POINTS, t } from "@/lib/content";
 export default function PainPoints() {
     return (
         <Section id="metodologia" className="py-16 md:py-20">
-            <div className="max-w-3xl mx-auto mb-12 text-center flex flex-col items-center">
+            <div className="max-w-7xl mx-auto mb-12 text-center flex flex-col items-center">
                 <ScrollReveal>
                     <h2 className="text-3xl md:text-5xl font-black mb-4 leading-tight tracking-tight text-white">
                         {t.pain.title} <span className="text-violet-500">{t.pain.titleHighlight}</span>

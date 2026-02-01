@@ -13,9 +13,9 @@ export default function FAQ() {
 
     return (
         <Section id="faq" className="py-24 relative overflow-hidden">
-            <div className="max-w-3xl mx-auto px-6 relative z-10">
+            <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
                 <ScrollReveal>
-                    <h2 className="text-4xl md:text-5xl font-black mb-12 text-center tracking-tighter text-white">
+                    <h2 className="text-4xl md:text-5xl font-black mb-12 text-center tracking-tighter bg-gradient-to-r from-violet-500 to-white bg-clip-text text-transparent whitespace-nowrap">
                         {t.faq.title}
                     </h2>
                 </ScrollReveal>

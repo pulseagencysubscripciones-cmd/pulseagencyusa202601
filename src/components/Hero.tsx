@@ -17,22 +17,22 @@ export default function Hero() {
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-violet-900/10 via-transparent to-transparent" />
             <div className="absolute -top-32 -right-32 h-96 w-96 bg-cyan-400/5 rounded-full blur-[120px] pointer-events-none" />
             
-                <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-center relative z-10">
+                <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-start relative z-10">
                     {/* LEFT COLUMN - TEXT */}
                     <motion.div 
                         initial={{ x: -20, opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ delay: 0.2 }}
-                        className="space-y-6 md:space-y-8"
+                        className="space-y-4 md:space-y-5"
                     >
-                        <div className="inline-block px-4 py-2 rounded-full bg-gradient-to-r from-violet-600/10 to-fuchsia-600/10 border border-violet-500/20">
+                        <div className="inline-block px-4 py-2 rounded-full bg-gradient-to-r from-violet-600/10 to-fuchsia-600/10 border border-violet-500/20 mb-2">
                             <span className="text-violet-400 text-xs font-black tracking-[0.25em] uppercase">
                                 PULSE VISIBILITY SPRINT
                             </span>
                         </div>
 
-                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black leading-[0.95] tracking-tighter">
-                            {t.hero.titleA}<br />
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-[1.1] tracking-tighter">
+                            {t.hero.titleA}{" "}
                             <span className="text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.5)]">
                                 {t.hero.titleB}
                             </span><br />
@@ -80,7 +80,7 @@ export default function Hero() {
                     initial={{ x: 20, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ delay: 0.4 }}
-                    className="relative aspect-[9/16] md:aspect-video w-full max-w-none mx-auto rounded-3xl overflow-hidden ring-1 ring-white/10 shadow-2xl bg-black"
+                    className="relative aspect-[9/16] md:aspect-[9/14] w-full max-w-none mx-auto rounded-3xl overflow-hidden ring-1 ring-white/10 shadow-2xl bg-black"
                 >
                     {!isPlaying ? (
                         <div

@@ -18,7 +18,7 @@ const iconMap = {
 export default function ValueGrid() {
     return (
         <Section className="py-16 md:py-20">
-            <div className="max-w-3xl mx-auto mb-12 text-center space-y-6">
+            <div className="max-w-7xl mx-auto mb-12 text-center space-y-6">
                 <ScrollReveal>
                     <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-400/10 border border-cyan-400/20 text-cyan-400 text-xs font-black uppercase tracking-[0.25em]">
                         <Zap size={14} className="fill-cyan-400" />

@@ -1,5 +1,3 @@
-import { headers } from "next/headers";
-import { isMobileDevice } from "@/lib/device";
 import DesktopLayout from "@/components/desktop/DesktopLayout";
 import MobileLayout from "@/components/mobile/MobileLayout";
 
@@ -8,14 +6,15 @@ export const metadata = {
   description: "Diagnóstico práctico y accionable para ordenar tu marca, tu mensaje y tus métricas en 7 días.",
 };
 
-export default async function Page() {
-  const headersList = await headers();
-  const userAgent = headersList.get("user-agent") || "";
-  const isMobile = isMobileDevice(userAgent);
-
-  if (isMobile) {
-    return <MobileLayout />;
-  }
-
-  return <DesktopLayout />;
+export default function Page() {
+  return (
+    <>
+      <div className="block lg:hidden">
+        <MobileLayout />
+      </div>
+      <div className="hidden lg:block">
+        <DesktopLayout />
+      </div>
+    </>
+  );
 }
