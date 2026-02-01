@@ -15,14 +15,15 @@ const iconMap = {
 
 export default function MobileValueGrid() {
     return (
-        <section className="py-10">
+        <section id="metodologia" className="py-10">
             <div className="px-5 mb-8 flex flex-col items-center text-center">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-400/10 border border-cyan-400/20 text-cyan-400 text-[9px] font-black uppercase tracking-[0.25em] mb-4">
                     <Zap size={10} className="fill-cyan-400" />
                     {t.value.kicker}
                 </div>
-                <h2 className="text-3xl font-black leading-none tracking-tighter text-white">
-                    {t.value.titleA} <span className="text-violet-500">{t.value.titleB}</span>
+                <h2 className="text-2xl font-black leading-tight tracking-tighter text-white">
+                    <span className="block text-[10px] uppercase tracking-[0.2em] text-violet-400 mb-1 font-black">{t.value.titleA}</span>
+                    <span>{t.value.titleB}</span>
                 </h2>
             </div>
 

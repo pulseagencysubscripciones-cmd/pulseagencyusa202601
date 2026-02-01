@@ -24,7 +24,7 @@ export default function Navbar() {
                             <span className="text-[9px] md:text-[10px] text-white/40 tracking-[0.15em] font-bold uppercase mt-1">Agency</span>
                         </div>
                     </div>
-                    <div className="hidden lg:flex items-center gap-10">
+                    <div className="hidden md:flex items-center gap-6 lg:gap-10">
                         <Link href="#home" className="text-[10px] font-black tracking-[0.2em] text-white/40 hover:text-white transition-colors uppercase">{t.nav.home}</Link>
                         <a href="#metodologia" className="text-[10px] font-black tracking-[0.2em] text-white/40 hover:text-white transition-colors uppercase">{t.nav.method}</a>
                         <a href="#casos" className="text-[10px] font-black tracking-[0.2em] text-white/40 hover:text-white transition-colors uppercase">{t.nav.cases}</a>

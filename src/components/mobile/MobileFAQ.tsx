@@ -11,8 +11,8 @@ export default function MobileFAQ() {
 
     return (
         <section id="faq" className="py-10">
-            <div className="px-5 mb-8 flex flex-col items-center text-center">
-                <h2 className="text-3xl font-black tracking-tighter text-white">
+            <div className="px-5 mb-4 flex flex-col items-center text-center">
+                <h2 className="text-2xl font-black tracking-tighter text-white">
                     {t.faq.title} <span className="text-cyan-400">?</span>
                 </h2>
             </div>

@@ -18,7 +18,7 @@ export default function MobileNavbar() {
 
     return (
         <>
-            <header className="md:hidden sticky top-0 z-50 backdrop-blur-xl bg-[#070A14]/90 border-b border-white/5">
+            <header className="lg:hidden sticky top-0 z-50 backdrop-blur-xl bg-[#070A14]/90 border-b border-white/5">
                 <div className="flex items-center justify-between px-5 py-4">
                     <div className="flex items-center gap-3">
                         <div className="relative h-8 w-8 overflow-hidden rounded-lg bg-white/5 ring-1 ring-white/10 p-0.5">
@@ -45,7 +45,7 @@ export default function MobileNavbar() {
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: "auto" }}
                         exit={{ opacity: 0, height: 0 }}
-                        className="md:hidden fixed top-[65px] left-0 right-0 z-40 bg-[#070A14] border-b border-white/5"
+                        className="lg:hidden fixed top-[65px] left-0 right-0 z-40 bg-[#070A14] border-b border-white/5"
                     >
                         <nav className="px-5 py-6 space-y-4">
                             {navLinks.map((link) => (

@@ -7,7 +7,7 @@ export default function MobileFooter() {
     const currentYear = 2025;
 
     return (
-        <footer className="px-5 py-16 border-t border-white/5 bg-[#070A14]">
+        <footer className="px-5 pt-16 pb-28 border-t border-white/5 bg-[#070A14]">
             <div className="flex flex-col items-center text-center space-y-12">
                 {/* Brand & Description */}
                 <div className="space-y-6">
