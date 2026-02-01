@@ -80,7 +80,7 @@ export default function Hero() {
                     initial={{ x: 20, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ delay: 0.4 }}
-                    className="relative aspect-[9/16] md:aspect-[9/14] w-full max-w-none mx-auto rounded-3xl overflow-hidden ring-1 ring-white/10 shadow-2xl bg-black"
+                    className="relative aspect-[9/16] md:aspect-video w-full max-w-none mx-auto rounded-3xl overflow-hidden ring-1 ring-white/10 shadow-2xl bg-black lg:mt-8"
                 >
                     {!isPlaying ? (
                         <div

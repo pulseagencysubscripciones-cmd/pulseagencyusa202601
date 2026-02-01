@@ -23,7 +23,7 @@ export default function Footer() {
                                 <span className="text-[8px] text-white/30 tracking-[0.1em] font-bold uppercase mt-1">Agency</span>
                             </div>
                         </div>
-                        <p className="text-white/40 text-sm leading-relaxed font-medium max-w-xs italic">
+                        <p className="text-white text-sm leading-relaxed font-medium max-w-xs italic">
                             {t.footer.description}
                         </p>
                         {/* Social Icons */}
@@ -87,10 +87,18 @@ export default function Footer() {
                 </div>
 
                 {/* Bottom Bar */}
-                <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <p className="text-white/30 text-[10px] font-black uppercase tracking-[0.3em]">
+                <div className="pt-12 border-t border-white/5 flex flex-col items-center text-center gap-6">
+                    <p className="text-white text-[9px] md:text-[10px] font-black uppercase tracking-[0.4em] opacity-40">
                         © {currentYear} PULSE AGENCY LLC. {t.footer.rights}
                     </p>
+                    <div className="flex flex-col items-center gap-2">
+                        <p className="text-white/30 text-[9px] font-bold uppercase tracking-[0.2em]">
+                            Cumplimiento Federal e Internacional de Datos
+                        </p>
+                        <p className="text-white/20 text-[8px] font-medium max-w-2xl leading-relaxed uppercase tracking-wider">
+                            Garantizamos el cumplimiento estricto de las normativas de protección de datos: CCPA (California), TDPSA (Texas), FIPA (Florida) en EE.UU., y el RGPD (Reglamento General de Protección de Datos) de la Unión Europea. Tu privacidad es nuestra prioridad estratégica.
+                        </p>
+                    </div>
                 </div>
             </div>
         </footer>

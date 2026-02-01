@@ -27,7 +27,8 @@ export default function ValueGrid() {
                 </ScrollReveal>
                 <ScrollReveal delay={0.1}>
                     <h2 className="text-3xl md:text-5xl font-black tracking-tighter text-white leading-tight">
-                        {t.value.titleA} <span className="text-violet-500">{t.value.titleB}</span>
+                        <span className="block text-sm md:text-base uppercase tracking-[0.2em] text-violet-400 mb-2 font-black">{t.value.titleA}</span>
+                        <span>{t.value.titleB}</span>
                     </h2>
                 </ScrollReveal>
             </div>

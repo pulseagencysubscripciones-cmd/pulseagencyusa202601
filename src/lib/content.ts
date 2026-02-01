@@ -15,7 +15,7 @@ export const LINKS = {
 
 export const t = {
   nav: {
-    home: "EL PROBLEMA",
+    home: "HOME",
     method: "Metodología",
     cases: "Casos",
     faq: "FAQ",

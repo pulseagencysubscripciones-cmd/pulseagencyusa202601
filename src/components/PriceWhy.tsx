@@ -22,9 +22,9 @@ export default function PriceWhy() {
                         </ScrollReveal>
 
                         <ScrollReveal delay={0.2}>
-                            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black leading-[1.1] tracking-tighter text-violet-500">
-                                {t.priceWhy.title}<br />
-                                <span className="text-white text-xl md:text-2xl italic block mt-3">{t.priceWhy.subtitle}</span>
+                            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter">
+                                <span className="text-violet-500">{t.priceWhy.title}</span><br />
+                                <span className="text-white text-xl md:text-2xl italic block mt-8 leading-[2] tracking-[0.05em] [word-spacing:0.15em]">{t.priceWhy.subtitle}</span>
                             </h2>
                         </ScrollReveal>
 

@@ -17,8 +17,8 @@ export default function Testimonials() {
             <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
                 <div className="mb-16 text-center max-w-3xl mx-auto">
                     <ScrollReveal text-center>
-                        <h2 className="text-4xl md:text-5xl font-black mb-6 tracking-tighter text-white">
-                            {t.testimonials.titleA} <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-fuchsia-500">{t.testimonials.titleB}</span>
+                        <h2 className="text-4xl md:text-5xl font-black mb-6 tracking-tighter text-violet-500">
+                            {t.testimonials.titleA} {t.testimonials.titleB}
                         </h2>
                     </ScrollReveal>
                     <ScrollReveal delay={0.1}>
